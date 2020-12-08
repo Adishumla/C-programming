@@ -9,11 +9,11 @@ int main(){
     scanf("%d",&userInput);
 
     if(userInput==1){
-        printf("\nYou have choosen to calculate the resistance\nInput the current: ");
+        printf("\nYou have choosen to calculate the resistance\nInput the resistance: ");
+        scanf("%f",&resistance);
+        printf("input the current: ");
         scanf("%f",&current);
-        printf("input the voltage: ");
-        scanf("%f",&voltage);
-        printf("The resistance is %.2f\n",voltage/current);
+        printf("The resistance is %.2f\n",resistance*current);
     }
     else if(userInput==2){
         printf("\nYou have choosen to calculate the current\nInput resistance: ");
