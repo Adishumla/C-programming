@@ -27,7 +27,6 @@ FILE *f;
  printf("%d\n",buf[i]);
  }
  fclose(f);
- system("PAUSE"); //Detta pausar programmet...
- return 0;
+ system("PAUSE");
  return 0;
 }
